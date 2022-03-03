@@ -1,0 +1,39 @@
+body {
+    background-color: #F0F;
+    animation: strobo 1s infinite;
+}
+
+.main-title {
+    font-size: 4rem;
+    text-align: center;
+    color: chartreuse;
+    animation: strobo-titre 1s infinite;
+}
+
+@keyframes strobo {
+    0% {
+        background-color: #F0F;
+    }
+
+    50% {
+        background-color: chartreuse;
+    }
+
+    100% {
+        background-color: #F0F;
+    }
+}
+
+@keyframes strobo-titre {
+    0% {
+        color: chartreuse;
+    }
+
+    50% {
+        color: #F0F;
+    }
+
+    100% {
+        color: chartreuse;
+    }
+}
